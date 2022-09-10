@@ -1,0 +1,53 @@
+/* CSS Color Pallete 
+--lemon-meringue: #f4e8c1ff;
+--opal: #a0c1b9ff;
+--pewter-blue: #70a0afff;
+--jet: #2a2b2eff;
+--dark-purple: #331e38ff; */
+
+@import url('http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic') ;
+@font-face {
+font-family : 'Julius Sans One';
+font-style : normal;
+font-weight : 400;
+src : url(http://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
+}
+@font-face {
+    font-family : 'Libre Baskerville';
+    font-style : italic;
+    font-weight : 400;
+    src : url(http://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQCQ.ttf) format('truetype');
+    }
+
+html {
+    background-image: url(sky.jpg);
+    background-size: 100vw;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+body {
+    color: #f4e8c1ff;
+
+}
+article {
+    margin: 15px;
+}
+#profileppic {
+    align-items: flex-end;
+}
+
+a {
+    color: #a0c1b9ff;
+    font-family: 'Libre Baskerville';
+    text-decoration: none;
+}
+a:hover {
+    color: #70a0afff;
+    text-decoration: underline;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: hsla(288, 30%, 17%, .35) /*#331e38ff*/;
+}
