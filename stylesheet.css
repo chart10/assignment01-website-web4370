@@ -35,8 +35,11 @@ article {
     padding: 10px;
     background-color: hsla(288, 30%, 17%, .35) /*#331e38ff*/;
 }
-#heading {
-    background-color: none;
+article.heading {
+    background-color: hsla(288, 30%, 17%,0) /*#331e38ff*/;
+}
+img {
+    float: right;
 }
 div {
     margin-top: 85px;
@@ -65,6 +68,12 @@ a:hover {
 }*/
 ul {
     list-style-type: none;
+}
+.numlist {
+    list-style-type: 1;
+}
+#bullet {
+    list-style-type: circle;
 }
 li {
     margin: 10px;
