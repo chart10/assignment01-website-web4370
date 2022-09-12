@@ -30,7 +30,12 @@ body {
 
 }
 article {
-    margin: 15px;
+    margin: 30px 15px;
+}
+
+div {
+    margin-top: 85px;
+    margin-bottom: 20px;
 }
 #profileppic {
     align-items: flex-end;
@@ -44,6 +49,20 @@ a {
 a:hover {
     color: #70a0afff;
     text-decoration: underline;
+}
+/*a:visited{
+    color: #70a0afff;;
+    text-decoration: none;
+}*/
+ul {
+    list-style-type: none;
+}
+li {
+    margin: 10px;
+}
+li a {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #f4e8c1ff;
 }
 th, td {
     padding: 10px;
