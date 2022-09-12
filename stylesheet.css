@@ -29,13 +29,22 @@ body {
     color: #f4e8c1ff;
 
 }
-article {
-    margin: 30px 15px;
-}
 
+article {
+    margin: 20px 15px;
+    padding: 10px;
+    background-color: hsla(288, 30%, 17%, .35) /*#331e38ff*/;
+}
+#heading {
+    background-color: none;
+}
 div {
     margin-top: 85px;
     margin-bottom: 20px;
+}
+span {
+    color: rgb(200, 0, 0);
+    font-weight: bold;
 }
 #profileppic {
     align-items: flex-end;
@@ -64,8 +73,11 @@ li a {
     font-family: 'Julius Sans One', sans-serif;
     color: #f4e8c1ff;
 }
-th, td {
+th, td, dd, dt {
     padding: 10px;
+}
+th {
+    color: #f4e8c1ff;
 }
 tr:nth-child(odd) {
     background-color: hsla(288, 30%, 17%, .35) /*#331e38ff*/;

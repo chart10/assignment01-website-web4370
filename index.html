@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <article>
+    <article id="heading">
       <img
         src="profilepic.jpg"
         alt="a portait of the website author"
@@ -15,57 +15,79 @@
         class="heading"
         align="right"
       />
-      <h1 class="heading">Web Programming for the Post Apocalypse</h1>
+      <h1 class="heading">
+        Web <span>Programming</span> for the Post Apocalypse
+      </h1>
       <h3 class="heading">a refuge designed by Christian Hart</h3>
       <a href="http://www.cs.gsu.edu/" class="heading"
-        >Computer Science Department @ GSU</a
+        ><span>Computer Science</span> Department @ GSU</a
+      >
+      •&nbsp<a href="https://github.com/chart10/Web-dev-website-4370"
+        >Github Repo</a
       >
     </article>
 
     <article>
       <!-- TODO: Create links to assignment 00 and 01 -->
       <table>
-        <tr style="color: #f4e8c1ff">
+        <tr>
           <th>Class Assignments</th>
           <th>Group Projects</th>
         </tr>
         <tr>
-          <td><a>Assignment 00</a></td>
-          <td><a>Project 1</a></td>
+          <td><a href="/assignment00/index.html">Assignment 00</a></td>
+          <td><a href="">Project 1</a></td>
         </tr>
         <tr>
-          <td><a>Assignment 01</a></td>
+          <td><a href="index.html">Assignment 01</a></td>
           <td><a>Project 2</a></td>
         </tr>
       </table>
     </article>
 
-    <!-- TODO: Create a list of hobbies or interest displayed as an HTML unordered 
-        list and second list (e.g., your top-ten favorite Albums). At least 2
-        items in the list should be links to relevant pages -->
     <article>
       <h3>Hobbies and Interests</h3>
       <ul>
-        <li>Hiking</li>
+        <li><a href="https://www.alltrails.com/">Hiking</a></li>
         <li><a href="https://www.ssclimbing.com/atlanta/">Rock Climbing</a></li>
-        <li><a href="https://www.w3schools.com/html/">Programming</a></li>
-        <li>Weightlifting</li>
         <li>
-          <a href="https://www.youtube.com/watch?v=kJawWyRUOBM">Video Gaming</a>
+          <a href="https://www.w3schools.com/html/"><span>Programming</span></a>
         </li>
-        <li>Moviegoing</li>
+
+        <li>
+          <a href="https://www.youtube.com/watch?v=ioxlKDOYOcM">Video Games</a>
+        </li>
+        <li>
+          <a href="https://www.reddit.com/r/cats/"><span>Cats</span></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=kJawWyRUOBM"
+            >Video Games with <span>Cats</span> in Them</a
+          >
+        </li>
       </ul>
     </article>
-    <!-- TODO: Create a nested list of Education (bulleted list of schools) and Work
-        Experience (numbered list) -->
+
+    <article>
+      <h3>Tetris Pieces Ranked</h3>
+      <ol style="list-style-type: 1">
+        <li>Line Piece</li>
+        <li>L-Block</li>
+        <li>Square</li>
+        <li>T-Block</li>
+        <li>Squiggly</li>
+      </ol>
+    </article>
+
     <article>
       <h3>Education</h3>
       <ul style="list-style-type: circle">
         <li>
-          Georgia State University, Bachelor's in Computer Science (May 2023)
+          <span>Georgia State</span> University, Bachelor's in Computer Science
+          (May 2023)
         </li>
-        <li>Georgia State University, Bachelor's in Philosophy</li>
-        <li>Cedar Shoals High School, 2007 Graduate</li>
+        <li><span>Georgia State</span> University, Bachelor's in Philosophy</li>
+        <li>Cedar Shoals High School, Class of 2007</li>
       </ul>
       <h3>Work Experience</h3>
       <ol style="list-style-type: 1">
@@ -80,8 +102,7 @@
         </li>
       </ol>
     </article>
-    <!-- TODO: Include a favorite quote (e.g., a poem or line from a movie) using a 
-        DIV element -->
+
     <div>
       <dl>
         <dt>
@@ -91,7 +112,6 @@
         <dd>- Mewtwo, The Pokemon Movie</dd>
       </dl>
     </div>
-    <!-- There should be at least 3 external links to other websites of interest -->
     <!-- TODO: double check that all guidelines have been followed -->
     <!-- TODO: Transfer files to CODD-->
   </body>
