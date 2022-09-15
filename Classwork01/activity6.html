@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>HTML Table Design</title>
+    <style>
+      html {
+        font-family: helvetica, sans-serif;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+      }
+      tr {
+        height: 75;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="4px" style="width: 80%" align="center">
+      <caption>
+        Christian Hart's Timetable
+      </caption>
+      <tr bgcolor="#D9ED92" style="height: 30px">
+        <td bgcolor="white" style="width: 10%"></td>
+        <td colspan="4" style="width: 30%">Morning</td>
+        <td colspan="4" style="width: 30%">Afternoon</td>
+        <td colspan="4" style="width: 30%">Evening</td>
+      </tr>
+      <tr bgcolor="#B5E48C" style="height: 30px">
+        <td bgcolor="white"></td>
+        <td>9AM</td>
+        <td>10AM</td>
+        <td>11AM</td>
+        <td>12PM</td>
+        <td>1PM</td>
+        <td>2PM</td>
+        <td>3PM</td>
+        <td>4PM</td>
+        <td>5PM</td>
+        <td>6PM</td>
+        <td>7PM</td>
+        <td>8PM</td>
+      </tr>
+      <tr style="color: white; height: 75px">
+        <td bgcolor="#99D98C" style="color: black">Monday</td>
+        <td colspan="3" rowspan="4" bgcolor="#52B69A" style="color: white">
+          Homework / Study
+        </td>
+        <td rowspan="4" bgcolor="#34A0A4">Commute</td>
+        <td colspan="3" bgcolor="#1A759F">Computer Architecture</td>
+        <td bgcolor="#34A0A4">Lunch</td>
+        <td colspan="3" bgcolor="#52B69A">Homework / Study</td>
+        <td rowspan="4" bgcolor="#34A0A4">Commute</td>
+      </tr>
+      <tr style="color: white">
+        <td bgcolor="#99D98C" style="color: black">Tuesday</td>
+        <td bgcolor="#34A0A4">Lunch</td>
+        <td colspan="3" bgcolor="#1A759F">Programming Language Concepts</td>
+        <td colspan="3" bgcolor="#1A759F">Web Programming</td>
+      </tr>
+      <tr style="color: white">
+        <td bgcolor="#99D98C" style="color: black">Wednesday</td>
+        <td colspan="3" bgcolor="#1A759F">Computer Architecture</td>
+        <td bgcolor="#34A0A4">Lunch</td>
+        <td colspan="3" bgcolor="#52B69A">Homework / Study</td>
+      </tr>
+      <tr style="color: white">
+        <td bgcolor="#99D98C" style="color: black">Thursday</td>
+        <td bgcolor="#34A0A4">Lunch</td>
+        <td colspan="3" bgcolor="#1A759F">Programming Language Concepts</td>
+        <td colspan="3" bgcolor="#1A759F">Web Programming</td>
+      </tr>
+      <tr style="color: white">
+        <td bgcolor="#99D98C" style="color: black">Friday</td>
+        <td bgcolor="#34A0A4">Commute</td>
+        <td colspan="4" bgcolor="#1A759F">Capstone Software Engineering</td>
+        <td colspan="3" bgcolor="#1E6091">Team Projects</td>
+        <td bgcolor="#34A0A4">Commute</td>
+        <td colspan="3" bgcolor="#184E77">D & D</td>
+      </tr>
+    </table>
+  </body>
+</html>
