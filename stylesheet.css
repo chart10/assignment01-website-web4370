@@ -23,6 +23,7 @@ html {
     background-image: url(sky.jpg);
     background-size: 100vw;
     font-family: 'Julius Sans One', sans-serif;
+    background-attachment: fixed;
 }
 
 body {
